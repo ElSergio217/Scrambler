@@ -10,8 +10,8 @@
 				hiddenMessage += spn[i].innerHTML; //If span is hidden it adds the innerHTML value to the hiddenMessage variable.
 			}
 		}
-		console.log(hiddenMessage); //After loop is complete, the message is posted in the console.
-						
+		alert(hiddenMessage); //After loop is complete, the message is posted in the console.
+		alert("Now scrambling message");	
 		//scrambling the hidden message:
 		var scramble = "";
 		var spanCount = 0;// Count the spans as they generate
